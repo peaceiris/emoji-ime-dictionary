@@ -26,6 +26,7 @@
 ## References
 
 - [yagays/emoji-ja: UNICODE絵文字の日本語読み/キーワード/分類辞書](https://github.com/yagays/emoji-ja)
+    - [project's site](https://yag-ays.github.io/project/emoji-ja/)
 - [WebpageFX/emoji-cheat-sheet.com: A one pager for emojis on Campfire and GitHub](https://github.com/WebpageFX/emoji-cheat-sheet.com)
 
 [↑  Back to TOC]
