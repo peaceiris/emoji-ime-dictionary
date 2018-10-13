@@ -10,9 +10,16 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Related repository](#related-repository)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+
+## Related repository
+
+- [peaceiris/google-ime-dictionary: Google日本語入力用のユーザー辞書(日英変換・英語略語展開)](https://github.com/peaceiris/google-ime-dictionary)
 
 
 
