@@ -1,6 +1,6 @@
 # emoji-ime-dictionary
 
-絵文字入力を日本語でするためのIME用追加辞書
+絵文字入力を日本語でするためのIME追加辞書
 
 
 
@@ -26,8 +26,23 @@
 
 ## 概要 - Overview
 
-7965 単語が収録されています。
-重複あり。(`:いぬ` )
+この辞書をお使いの IME に導入することで、
+GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵文字を入力することができるようになります。
+「**GitHub, Slack 以外のアプリケーションでも GitHub, Slack のように絵文字を入力したい**」
+という要望に応えるための IME の追加辞書です。
+
+現在 6610 ペアの絵文字とその読みが収録されています。
+[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
+
+- 例えば `:にっぽん` を 🇯🇵 に変換することができるようになります。
+- 例えば 🐶 を入力するには以下の方法があります。
+    - `:いぬ`
+    - `:いぬのかお`
+    - `:かお`
+    - `:どうぶつ`
+    - `:ぺっと`
+
+
 
 ## 辞書の導入方法 - Installation
 
@@ -37,7 +52,7 @@
 
 ### Google 日本語入力
 
-1. 最新の [辞書ファイル](./emoji.txt) をダウンロード
+1. 最新の [辞書ファイル](https://github.com/peaceiris/emoji-ime-dictionary/raw/master/emoji.txt) をダウンロード
 1. Google日本語入力の `辞書ツール` を開く
 1. `管理` をクリック
 1. `新規辞書にインポート` をクリック
@@ -63,7 +78,7 @@
 
 ## 関連プロジェクト - Related project
 
-- [peaceiris/google-ime-dictionary: Google日本語入力用のユーザー辞書(日英変換・英語略語展開)](https://github.com/peaceiris/google-ime-dictionary)
+- [peaceiris/google-ime-dictionary: 日英変換・英語略語展開のためのIME追加辞書📙](https://github.com/peaceiris/google-ime-dictionary)
 
 
 
