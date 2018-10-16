@@ -29,7 +29,7 @@
 この辞書をお使いの IME に導入することで、
 GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵文字を入力することができるようになります。
 「**GitHub, Slack 以外のアプリケーションでも GitHub, Slack のように絵文字を入力したい**」
-という要望に応えるための IME の追加辞書です。
+という要望に応えるための IME 追加辞書です。
 
 現在 6610 ペアの絵文字とその読みが収録されています。
 [GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
