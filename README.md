@@ -11,7 +11,7 @@
 
 
 - [概要 - Overview](#%E6%A6%82%E8%A6%81---overview)
-  - [変換例 - Examples](#%E5%A4%89%E6%8F%9B%E4%BE%8B---examples)
+- [変換例 - Examples](#%E5%A4%89%E6%8F%9B%E4%BE%8B---examples)
 - [辞書の導入方法 - Installation](#%E8%BE%9E%E6%9B%B8%E3%81%AE%E5%B0%8E%E5%85%A5%E6%96%B9%E6%B3%95---installation)
   - [Google 日本語入力](#google-%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B)
   - [Microsoft IME](#microsoft-ime)
@@ -35,7 +35,9 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 現在 6610 ペアの絵文字とその読みが収録されています。
 [GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
-### 変換例 - Examples
+
+
+## 変換例 - Examples
 
 - `:にっぽん` を 🇯🇵 に変換することができるようになります。
 - 🐶 を入力するには以下の方法があります。
@@ -79,7 +81,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ## 関連プロジェクト - Related project
 
-- [peaceiris/google-ime-dictionary: 日英変換・英語略語展開のためのIME追加辞書📙](https://github.com/peaceiris/google-ime-dictionary)
+- [日英変換・英語略語展開のためのIME追加辞書📙](https://github.com/peaceiris/google-ime-dictionary)
 
 
 
@@ -103,7 +105,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ## ライセンス - License
 
-- [MIT](./LICENSE)
+- [MIT License](./LICENSE)
     - `emoji.txt` と `emoji.tsv` は [MIT License - yagays/emoji-ja] を継承しています。
 
 
