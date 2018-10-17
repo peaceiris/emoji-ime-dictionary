@@ -33,7 +33,6 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 という要望に応えるための IME 追加辞書です。
 
 現在 6610 ペアの絵文字とその読みが収録されています。
-[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
 
 
@@ -44,6 +43,8 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
     - `:いぬ`, `:いぬのかお`, `:かお`, `:どうぶつ`, `:ぺっと`
 - `:ぺっと` は以下の変換候補を持ちます。
     - 🐇・🐈・🐕・🐩・🐰・🐱・🐶・🐹
+
+[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
 
 
