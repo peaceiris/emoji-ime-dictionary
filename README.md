@@ -2,7 +2,7 @@
 
 😃 絵文字入力を日本語 🇯🇵 でするための IME 追加辞書 📙
 
-![emoji-ime-dictionary examples](./images/sample.jpg)
+<img src="./images/sample.jpg" alt="emoji-ime-dictionary examples" height="500">
 
 
 
