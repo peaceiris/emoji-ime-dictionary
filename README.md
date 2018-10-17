@@ -2,6 +2,8 @@
 
 😃 絵文字入力を日本語 🇯🇵 でするための IME 追加辞書 📙
 
+![emoji-ime-dictionary examples](./images/sample.jpg)
+
 
 
 ## 目次 - Table of Contents
