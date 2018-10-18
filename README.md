@@ -36,6 +36,10 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 現在 6610 ペアの絵文字とその読みが収録されています。
 
+| macOS を利用されている方へ |
+|:---|
+| macOS は `control + command + space` で「文字ビュアー(Character Viewer)」を呼び出すことができるので、この辞書を導入する前にそちらの利用を検討してください。一方で、「**システム言語が英語だけど日本語で絵文字を検索したい**」という方にはこの辞書がおすすめです。 |
+
 
 
 ## 変換例 - Examples
@@ -52,15 +56,11 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ## 辞書の導入方法 - Installation
 
-[emoji.zip をダウンロード](https://github.com/peaceiris/emoji-ime-dictionary/releases/download/v1.0.0/emoji.zip)
+- [emoji.zip をダウンロード](https://github.com/peaceiris/emoji-ime-dictionary/releases/download/v1.0.0/emoji.zip)
 
 上のリンクをクリックすると zip 形式のファイルをダウンロードできます。
 ダウンロード後に解凍すると、 `emoji.txt` が得られるので、
 このファイルをお使いの IME にインポートしてください。
-
-| macOS を利用されている方へ |
-|:---|
-| macOS は `control + command + space` で「文字ビュアー(Character Viewer)」を呼び出すことができるので、この辞書を導入する前にそちらの利用を検討してください。一方で、「**システム言語が英語だけど日本語で絵文字を検索したい**」という方にはこの辞書がおすすめです。 |
 
 ### Google 日本語入力
 
