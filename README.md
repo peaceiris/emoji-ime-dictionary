@@ -1,5 +1,8 @@
 # emoji-ime-dictionary
 
+<!-- https://shields.io/ -->
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/LICENSE)
+
 😃 絵文字入力を日本語 🇯🇵 でするための IME 追加辞書 📙
 
 <img src="./images/sample.jpg" alt="emoji-ime-dictionary examples" height="500">
