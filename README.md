@@ -43,6 +43,8 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 |:---|
 | macOS は `control + command + space` で「文字ビュアー(Character Viewer)」を呼び出すことができるので、この辞書を導入する前にそちらの利用を検討してください。一方で、「**システム言語が英語だけど日本語で絵文字を検索したい**」という方にはこの辞書がおすすめです。 |
 
+- [日本語で絵文字入力するための IME 追加辞書を公開しました - Qiita](https://qiita.com/peaceiris/items/c40ba39679daeb7555c2)
+
 
 
 ## 変換例 - Examples
