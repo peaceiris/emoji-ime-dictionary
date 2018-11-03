@@ -61,15 +61,13 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ## 辞書の導入方法 - Installation
 
-- [emoji.zip をダウンロード]
+- [Releases · peaceiris/emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary/releases)
 
-上のリンクをクリックすると zip 形式のファイルをダウンロードできます。
-ダウンロード後に解凍すると、 `emoji.txt` が得られるので、
-このファイルをお使いの IME にインポートしてください。
+上のリンク先から最新の `emoji.zip` をダウンロード・解凍すると `emoji.txt` が得られるので、
+このテキストファイルをお使いの IME にインポートしてください。
 
 ### Google 日本語入力
 
-1. [emoji.zip をダウンロード]
 1. `emoji.zip` を解凍して `emoji.txt` を得る
 1. Google日本語入力の `辞書ツール` を開く
 1. `管理` をクリック
@@ -127,6 +125,5 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 <!-- Internal References -->
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
-[emoji.zip をダウンロード]: https://github.com/peaceiris/emoji-ime-dictionary/releases/download/v1.0.0/emoji.zip
 <!-- External References -->
 [MIT License - yagays/emoji-ja]: https://github.com/yagays/emoji-ja/blob/master/LICENSE.md
