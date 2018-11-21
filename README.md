@@ -61,7 +61,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ## 辞書の導入方法 - Installation
 
-- [Releases · peaceiris/emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary/releases)
+- [Releases · peaceiris/emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary/releases/latest)
 
 上のリンク先から最新の `emoji.zip` をダウンロード・解凍すると `emoji.txt` が得られるので、
 このテキストファイルをお使いの IME にインポートしてください。
