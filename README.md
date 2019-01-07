@@ -57,6 +57,9 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 [GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
+![Emoji example 1](images/emoji_1.gif)
+![Emoji example 2](images/emoji_2.gif)
+
 
 
 ## 辞書の導入方法 - Installation
