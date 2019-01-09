@@ -107,7 +107,9 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
     - [GitHub](https://github.com/peaceiris)
     - [Twitter](https://twitter.com/piris314)
 
-何かあれば [Issue] を立ててください。
+何かあれば [Issue] を立ててください。Fork & Pull Request もお待ちしてます。
+
+「Qiita いいね :thumbsup:」や「GitHub Star :star:」をいただけると励みになります。
 
 
 
