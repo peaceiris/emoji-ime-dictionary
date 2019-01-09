@@ -107,7 +107,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
     - [GitHub](https://github.com/peaceiris)
     - [Twitter](https://twitter.com/piris314)
 
-何かあれば [Issue] を立ててください。Fork & Pull Request もお待ちしてます。
+何かあれば [Issue] を立ててください。Fork & [Pull Requests] もお待ちしてます。
 
 「Qiita いいね :thumbsup:」や「GitHub Star :star:」をいただけると励みになります。
 
@@ -130,5 +130,6 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 <!-- Internal References -->
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
+[Pull Requests]: https://github.com/peaceiris/emoji-ime-dictionary/pulls
 <!-- External References -->
 [MIT License - yagays/emoji-ja]: https://github.com/yagays/emoji-ja/blob/master/LICENSE.md
