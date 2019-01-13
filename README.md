@@ -88,10 +88,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ### ATOK
 
-- [テキストファイルから単語登録した内容を取り込みたい](http://support.justsystems.com/faq/1032/app/servlet/qadoc?QID=017975)
-
-作者が ATOK を持っていないため検証できていません。どなたか検証をお願いします。
-[Issue #5](https://github.com/peaceiris/emoji-ime-dictionary/issues/5)
+ATOK は元々の機能として「日本語での絵文字入力」が可能なため、この IME 追加辞書を導入するメリットはありません。
 
 
 
