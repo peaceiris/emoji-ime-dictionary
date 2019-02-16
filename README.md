@@ -126,14 +126,13 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能な
 
 
 
----
-
-[☝️ 目次に戻る]
+<div align="right">
+<a href="#table-of-contents">目次に戻る☝️</a>
+</div>
 
 
 
 <!-- Internal References -->
-[☝️ 目次に戻る]: #%E7%9B%AE%E6%AC%A1---table-of-contents
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
 [Pull Requests]: https://github.com/peaceiris/emoji-ime-dictionary/pulls
 <!-- External References -->
