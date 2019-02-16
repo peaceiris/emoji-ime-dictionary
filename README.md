@@ -5,11 +5,7 @@
 <img src="./images/sample.jpg" alt="絵文字入力を日本語でするための IME 追加辞書" height="450">
 </div>
 
-<h1 align="center">
-😃 絵文字入力を日本語 🇯🇵 でするための
-<br>
-IME 追加辞書 📙
-</h1>
+<h1 align="center">😃 絵文字入力を日本語 🇯🇵 でするための<br>IME 追加辞書 📙</h1>
 
 
 ## 目次 - Table of Contents
