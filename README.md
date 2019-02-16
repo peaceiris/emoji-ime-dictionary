@@ -127,7 +127,7 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能な
 
 
 <div align="right">
-<a href="#table-of-contents">目次に戻る☝️</a>
+<a href="#%E7%9B%AE%E6%AC%A1---table-of-contents">目次に戻る☝️</a>
 </div>
 
 
