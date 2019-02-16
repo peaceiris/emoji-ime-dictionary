@@ -3,10 +3,14 @@
 <!-- https://shields.io/ -->
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/LICENSE)
 
-😃 絵文字入力を日本語 🇯🇵 でするための IME 追加辞書 📙
 
-<img src="./images/sample.jpg" alt="emoji-ime-dictionary examples" height="500">
-
+<h1 align="center">
+<img src="./images/sample.jpg" alt="絵文字入力を日本語でするための IME 追加辞書" height="400">
+<br>
+😃 絵文字入力を日本語 🇯🇵 でするための
+<br>
+IME 追加辞書 📙
+</h1>
 
 
 ## 目次 - Table of Contents
@@ -57,8 +61,10 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 [GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
-![Emoji example 1](images/emoji_1.gif)
-![Emoji example 2](images/emoji_2.gif)
+<div align="center">
+<img src="images/emoji_1.gif">
+<img src="images/emoji_2.gif">
+</div>
 
 
 
@@ -72,12 +78,12 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 ### Google 日本語入力
 
 1. `emoji.zip` を解凍して `emoji.txt` を得る
-1. Google日本語入力の `辞書ツール` を開く
-1. `管理` をクリック
-1. `新規辞書にインポート` をクリック
-1. `ファイルを選択` から `emoji.txt` を選択
-1. お好きな `辞書名` をつける
-1. `インポート` をクリック
+2. Google日本語入力の `辞書ツール` を開く
+3. `管理` をクリック
+4. `新規辞書にインポート` をクリック
+5. `ファイルを選択` から `emoji.txt` を選択
+6. お好きな `辞書名` をつける
+7. `インポート` をクリック
 
 ### Microsoft IME
 
@@ -125,7 +131,14 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能な
 
 
 
+---
+
+[☝️ 目次に戻る]
+
+
+
 <!-- Internal References -->
+[☝️ 目次に戻る]: #%E7%9B%AE%E6%AC%A1---table-of-contents
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
 [Pull Requests]: https://github.com/peaceiris/emoji-ime-dictionary/pulls
 <!-- External References -->
