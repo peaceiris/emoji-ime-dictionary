@@ -104,6 +104,7 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能な
 - peaceiris
     - [GitHub](https://github.com/peaceiris)
     - [Twitter](https://twitter.com/piris314)
+    - [Amazon wish list](http://amzn.asia/ilWK0Yj)
 
 何かあれば [Issue] を立ててください。Fork & [Pull Requests] もお待ちしてます。
 
