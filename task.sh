@@ -26,16 +26,21 @@ function build() {
 }
 
 function help() {
-    echo "help"
+    cat << EOF
+usage: ./task.sh [OPTION]
+    add   (-a, --add)  : run after emoji addition
+    build (-b, --build): build release
+    help               : show this help
+EOF
 }
 
 
 # main
 case $1 in
-    "add" | "-a")
+    "add" | "-a" | "--add")
         add
         ;;
-    "build" | "-b")
+    "build" | "-b" | "--build")
         build
         ;;
     *)
