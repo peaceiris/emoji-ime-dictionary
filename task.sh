@@ -20,7 +20,16 @@ function add() {
 }
 
 function build() {
-    echo "build"
+    cd ${DICT_DIR}
+    local BUNDLE="emoji.all.txt"
+    local ZIP_FILE="emoji.zip"
+    touch ${BUNDLE}
+    for i in ${ORG_DICT}; do
+        cat ${i}.txt >> emoji.all.txt
+    done
+    zip ${ZIP_FILE} ${BUNDLE}
+    mv ${ZIP_FILE} ../${DIST_DIR}/
+    rm ${BUNDLE}
     # zip file for macOS and Linux
     # zip file for Windows
 }
@@ -38,10 +47,10 @@ EOF
 # main
 case $1 in
     "add" | "-a" | "--add")
-        add
+        (add)
         ;;
     "build" | "-b" | "--build")
-        build
+        (build)
         ;;
     *)
         help
