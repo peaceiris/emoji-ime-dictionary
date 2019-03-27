@@ -14,8 +14,8 @@ ORG_DICT="emoji emoji_additional"
 function add() {
     cd ${DICT_DIR}
     for i in ${ORG_DICT}; do
-        uniq ${i}.txt > ${i}.tsv
-        cp ${i}.tsv ${i}.txt
+        uniq "${i}.txt" > "${i}.tsv"
+        cp "${i}.tsv" "${i}.txt"
     done
 }
 
@@ -25,7 +25,7 @@ function build() {
     local ZIP_FILE="emoji.zip"
     touch ${BUNDLE}
     for i in ${ORG_DICT}; do
-        cat ${i}.txt >> emoji.all.txt
+        cat "${i}.txt" >> emoji.all.txt
     done
     zip ${ZIP_FILE} ${BUNDLE}
     mv ${ZIP_FILE} ../${DIST_DIR}/
