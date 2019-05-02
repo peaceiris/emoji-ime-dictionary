@@ -56,10 +56,9 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 [GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
 
-<div align="center">
-<img src="images/emoji_1.gif">
-<img src="images/emoji_2.gif">
-</div>
+| ぺっと・どうぶつ | こっき |
+|---|---|
+| ![](./images/emoji_1.gif) | ![](./images/emoji_2.gif) |
 
 
 
