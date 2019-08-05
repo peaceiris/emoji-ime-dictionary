@@ -136,6 +136,16 @@ cf. [Add: emoji dictionary for ATOK · Issue #15 · peaceiris/emoji-ime-dictiona
 
 
 
+## Developer notes
+
+```
+docker build -t emoji:latest .
+docker run --rm -i -t -v ${PWD}:/work emoji:latest
+docker run --rm -i -t -v ${PWD}:/work --entrypoint=sh emoji:latest
+```
+
+
+
 <!-- Internal References -->
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
 [Pull Requests]: https://github.com/peaceiris/emoji-ime-dictionary/pulls
