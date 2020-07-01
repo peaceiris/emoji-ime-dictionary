@@ -88,7 +88,9 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ### ATOK
 
-ATOK は元々の機能として「日本語での絵文字入力」が可能なため、この IME 追加辞書を導入するメリットはありません。
+ATOK は元々の機能として「日本語での絵文字入力」が可能ですが、この IME 追加辞書を導入することで表現力を拡張することができます。
+
+cf. [Add: emoji dictionary for ATOK · Issue #15 · peaceiris/emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary/issues/15)
 
 
 
