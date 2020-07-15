@@ -1,5 +1,6 @@
 <!-- https://shields.io/ -->
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/LICENSE)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/peaceiris/emoji-ime-dictionary/master?filepath=generate.ipynb)
 
 <div align="center">
 <img src="./images/sample.jpg" alt="絵文字入力を日本語でするための IME 追加辞書" width="400px">
