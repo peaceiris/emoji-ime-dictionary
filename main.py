@@ -24,6 +24,7 @@ class EmojiDict():
     def save_emoji_dict(self) -> None:
         with open(self.emoji_dict_path, 'w') as f:
             f.write(str(self.emoji_dict))
+            f.write('\n')
 
     def create_emoji_dict(self) -> None:
         for emoji in self.emoji_json:
