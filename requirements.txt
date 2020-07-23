@@ -1,0 +1,6 @@
+dill==0.3.2
+klepto==0.1.9
+pox==0.2.8
+pykakasi==2.0.1
+semidbm==0.5.1
+six==1.15.0

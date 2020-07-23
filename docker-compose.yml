@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  dev:
+    image: 'docker.pkg.github.com/peaceiris/emoji-ime-dictionary/emoji-dev:latest'
+    build:
+      context: .
+      cache_from:
+        - 'docker.pkg.github.com/peaceiris/emoji-ime-dictionary/emoji-dev:latest'
+    container_name: peaceiris_emoji_ime_dictionary_dev
+    volumes:
+      - ${PWD}:/src
+    stdin_open: true
+    tty: true
+    command:
+      - bash
