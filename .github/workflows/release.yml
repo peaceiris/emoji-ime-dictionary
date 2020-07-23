@@ -1,0 +1,22 @@
+name: Release
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  main:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install github/hub
+        run: |
+          export HUB_VERSION="2.14.2"
+          curl -fsSL https://github.com/github/hub/raw/8d91904208171b013f9a9d1175f4ab39068db047/script/get | bash -s "${HUB_VERSION}"
+
+      - name: Upload release assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./release.sh "${{ github.event.release.tag_name }}"
