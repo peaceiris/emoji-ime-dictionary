@@ -11,7 +11,7 @@ RELEASE_NOTES="release_notes.md"
 
 \rm -rf "${RELEASE_ASSETS_DIR}" || true
 mkdir "${RELEASE_ASSETS_DIR}"
-cat $(echo ./tsv/*.tsv) | uniq > "./${RELEASE_ASSETS_DIR}/emoji.txt"
+cat $(echo ./tsv/*.tsv) > "./${RELEASE_ASSETS_DIR}/emoji.txt"
 (
   cd "${RELEASE_ASSETS_DIR}"
   zip ./emoji.zip ./emoji.txt
