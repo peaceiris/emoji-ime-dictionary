@@ -5,7 +5,7 @@ from pykakasi import kakasi, wakati
 
 
 EMOJI_JSON_URL = 'https://raw.githubusercontent.com/yagays/emoji-ja/20190726/data/emoji_ja.json'
-EMOJI_DICT_PATH = 'dict/emoji.txt'
+EMOJI_DICT_PATH = 'tsv/emoji.tsv'
 kakasi = kakasi()
 
 
