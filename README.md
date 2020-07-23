@@ -56,7 +56,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 - `:ぺっと` は以下の変換候補を持ちます。
     - 🐇・🐈・🐕・🐩・🐰・🐱・🐶・🐹
 
-[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/main/emoji.tsv)
+[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/main/tsv/emoji.tsv)
 
 | ぺっと・どうぶつ | こっき |
 |---|---|
