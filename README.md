@@ -1,7 +1,7 @@
 <!-- https://shields.io/ -->
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/LICENSE)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/peaceiris/emoji-ime-dictionary/master?filepath=generate.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peaceiris/emoji-ime-dictionary/blob/master/generate.ipynb)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peaceiris/emoji-ime-dictionary/blob/main/LICENSE)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/peaceiris/emoji-ime-dictionary/main?filepath=generate.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peaceiris/emoji-ime-dictionary/blob/main/generate.ipynb)
 
 <div align="center">
 <img src="./images/sample.jpg" alt="絵文字入力を日本語でするための IME 追加辞書" width="400px">
@@ -56,7 +56,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 - `:ぺっと` は以下の変換候補を持ちます。
     - 🐇・🐈・🐕・🐩・🐰・🐱・🐶・🐹
 
-[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/master/emoji.tsv)
+[GitHub 上から辞書の中身を閲覧・検索できます。](https://github.com/peaceiris/emoji-ime-dictionary/blob/main/emoji.tsv)
 
 | ぺっと・どうぶつ | こっき |
 |---|---|
