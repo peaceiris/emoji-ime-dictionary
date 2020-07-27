@@ -1,6 +1,8 @@
 日本語 IME における絵文字入力支援のための絵文字表現拡張辞書
 
-| ファイル名 | 中身 |
+| ファイル名 | 対象 IME と OS |
 |---|---|
-| emoji.zip | 日本語で絵文字を入力するための日本語 IME 向け追加辞書 |
-| emoji.windows.zip | 日本語で絵文字を入力するための日本語 IME 向け追加辞書 (Microsoft IME 形式) |
+| emoji.zip | Google 日本語入力 (macOS, Ubuntu ibus-mozc) |
+| emoji.windows.zip | Windowns 版 Google 日本語入力, Microsoft IME |
+| emoji.atok-windows.zip | ATOK for Windowns 形式 |
+| emoji.atok-macos.zip | ATOK for Mac 形式 |
