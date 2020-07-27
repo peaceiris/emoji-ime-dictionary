@@ -125,8 +125,7 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能で
 
 ## ライセンス - License
 
-- [MIT License](./LICENSE)
-    - `emoji.txt` と `emoji.tsv` は [MIT License - yagays/emoji-ja] を継承しています。
+- [MIT License](./LICENSE) ([MIT License - yagays/emoji-ja] を継承しています。)
 
 
 
