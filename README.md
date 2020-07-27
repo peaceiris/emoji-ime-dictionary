@@ -92,6 +92,11 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能で
 - ATOK for Windowns: `emoji.atok-windows.zip`
 - ATOK for Mac: `emoji.atok-macos.zip`
 
+| インポート手順 | インポート手順 |
+|---|---|
+| ![](./images/atok-1.jpg) | ![](./images/atok-2.jpg)  |
+| ![](./images/atok-3.jpg) | ![](./images/atok-4.jpg)  |
+
 
 
 ## 関連プロジェクト - Related project
