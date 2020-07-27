@@ -7,6 +7,22 @@ from pykakasi import kakasi, wakati
 EMOJI_JSON_URL = 'https://raw.githubusercontent.com/yagays/emoji-ja/20190726/data/emoji_ja.json'
 EMOJI_DICT_PATH = 'tsv/emoji.tsv'
 kakasi = kakasi()
+kakasi.setMode("J","H")
+conv_j2h = kakasi.getConverter()
+kakasi.setMode("K","H")
+conv_k2h = kakasi.getConverter()
+
+
+def hiraganafy(keyword):
+    k = keyword.upper()
+    k = conv_j2h.do(k)
+    k = conv_k2h.do(k)
+    return k
+
+
+def add_word_to_dict(emoji, keyword, emoji_dict):
+    word = f':{keyword}\t{emoji}\t記号\t'
+    emoji_dict.append(word)
 
 
 class EmojiDict():
@@ -31,28 +47,14 @@ class EmojiDict():
             for k in self.emoji_json[emoji]['keywords']:
                 if k.isalpha() is False:
                     continue
-                k = k.upper()
-                kakasi.setMode("J","H")
-                conv = kakasi.getConverter()
-                k = conv.do(k)
-                kakasi.setMode("K","H")
-                conv = kakasi.getConverter()
-                k = conv.do(k)
-                w = f':{k}\t{emoji}\t記号\t'
-                self.emoji_dict.append(w)
+                k = hiraganafy(k)
+                add_word_to_dict(emoji, k, self.emoji_dict)
 
             k = self.emoji_json[emoji]['short_name']
             if k.isalpha() is False:
                 continue
-            k = k.upper()
-            kakasi.setMode("J","H")
-            conv = kakasi.getConverter()
-            k = conv.do(k)
-            kakasi.setMode("K","H")
-            conv = kakasi.getConverter()
-            k = conv.do(k)
-            w = f':{k}\t{emoji}\t記号\t'
-            self.emoji_dict.append(w)
+            k = hiraganafy(k)
+            add_word_to_dict(emoji, k, self.emoji_dict)
 
         self.emoji_dict.sort()
         self.emoji_dict = '\n'.join(self.emoji_dict)
