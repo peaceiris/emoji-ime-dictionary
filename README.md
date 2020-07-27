@@ -83,8 +83,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 - [複数の単語を一括で登録するには](https://support.microsoft.com/ja-jp/help/881925)
 
-作者が Windows を持っていないため検証できていません。どなたか検証をお願いします。
-[Issue #4](https://github.com/peaceiris/emoji-ime-dictionary/issues/4)
+`emoji.windows.zip` を解凍して得られる `emoji.windows.txt` をインポートしてください。
 
 ### ATOK
 

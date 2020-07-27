@@ -3,3 +3,4 @@
 | ファイル名 | 中身 |
 |---|---|
 | emoji.zip | 日本語で絵文字を入力するための日本語 IME 向け追加辞書 |
+| emoji.windows.zip | 日本語で絵文字を入力するための日本語 IME 向け追加辞書 (Microsoft IME 形式) |

@@ -14,8 +14,10 @@ mkdir "${RELEASE_ASSETS_DIR}"
 cat $(echo ./tsv/*.tsv) > "./${RELEASE_ASSETS_DIR}/emoji.txt"
 (
   cd "${RELEASE_ASSETS_DIR}"
+  nkf -w16L -Lw ./emoji.txt > ./emoji.windows.txt
   zip ./emoji.zip ./emoji.txt
-  rm ./emoji.txt
+  zip ./emoji.windows.zip ./emoji.windows.txt
+  rm ./*.txt
 )
 
 sed -i "1i日本語 IME 絵文字拡張辞書 ${TAG_NAME}\n" "./${RELEASE_NOTES}"
