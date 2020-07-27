@@ -22,11 +22,12 @@ cat $(echo ./tsv/*.tsv) > "./${RELEASE_ASSETS_DIR}/emoji.txt"
   zip ./emoji.windows.zip ./emoji.windows.txt
 
   # ATOK for Windowns
-  sed -e 's/記号/顔文字/g' ./emoji.windows.txt > ./emoji.atok-windows.txt
+  sed -e 's/記号/顔文字*/g' ./emoji.windows.txt > ./emoji.atok-windows.txt
   zip ./emoji.atok-windows.zip ./emoji.atok-windows.txt
 
   # ATOK for Mac (macOS)
-  sed -e 's/記号/顔文字/g' ./emoji.txt > ./emoji.atok-macos.txt
+  sed -e 's/記号/顔文字*/g' ./emoji.txt > ./emoji.atok-macos.txt
+  nkf --overwrite -w16L ./emoji.atok-macos.txt
   zip ./emoji.atok-macos.zip ./emoji.atok-macos.txt
 
   rm ./*.txt
