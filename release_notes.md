@@ -4,5 +4,5 @@
 |---|---|
 | emoji.zip | Google 日本語入力 (macOS, Ubuntu ibus-mozc) |
 | emoji.windows.zip | Windowns 版 Google 日本語入力, Microsoft IME |
-| emoji.atok-windows.zip | ATOK for Windowns 形式 |
-| emoji.atok-macos.zip | ATOK for Mac 形式 |
+| emoji.atok-windows.zip | ATOK for Windowns |
+| emoji.atok-macos.zip | ATOK for Mac |
