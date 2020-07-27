@@ -107,12 +107,9 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能で
 
 ## 作者 - Author
 
-- peaceiris
-    - [GitHub](https://github.com/peaceiris)
-    - [Twitter](https://twitter.com/piris314)
-    - [Amazon wish list](http://amzn.asia/ilWK0Yj)
+- [peaceiris homepage](https://peaceiris.com/)
 
-何かあれば [Issue] を立ててください。Fork & [Pull Requests] もお待ちしてます。
+何かあれば [Issue] を立ててください。
 
 「Qiita いいね :thumbsup:」や「GitHub Star :star:」をいただけると励みになります。
 
@@ -141,6 +138,5 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能で
 
 <!-- Internal References -->
 [Issue]: https://github.com/peaceiris/emoji-ime-dictionary/issues
-[Pull Requests]: https://github.com/peaceiris/emoji-ime-dictionary/pulls
 <!-- External References -->
 [MIT License - yagays/emoji-ja]: https://github.com/yagays/emoji-ja/blob/master/LICENSE.md
