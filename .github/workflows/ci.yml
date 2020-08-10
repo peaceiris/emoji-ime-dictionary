@@ -16,7 +16,7 @@ jobs:
   test:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2.3.1
+      - uses: actions/checkout@v2.3.2
       - run: docker-compose build
       - run: make build
       - run: make test
