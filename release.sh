@@ -17,11 +17,11 @@ cat $(echo ./tsv/*.tsv) > "./${RELEASE_ASSETS_DIR}/emoji.txt"
 
   zip ./emoji.zip ./emoji.txt
 
-  # Microsoft IME (Windowns)
+  # Microsoft IME (Windows)
   nkf -w16L -Lw ./emoji.txt > ./emoji.windows.txt
   zip ./emoji.windows.zip ./emoji.windows.txt
 
-  # ATOK for Windowns
+  # ATOK for Windows
   sed -e 's/記号/顔文字*/g' ./emoji.windows.txt > ./emoji.atok-windows.txt
   zip ./emoji.atok-windows.zip ./emoji.atok-windows.txt
 
