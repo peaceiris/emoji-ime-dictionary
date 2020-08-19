@@ -89,7 +89,7 @@ GitHub, Slack のようにコロン `:` をトリガーとして IME でも絵�
 
 ATOK は元々の機能として「日本語での絵文字入力」が可能ですが、この IME 追加辞書を導入することで表現力を拡張することができます。
 
-- ATOK for Windowns: `emoji.atok-windows.zip`
+- ATOK for Windows: `emoji.atok-windows.zip`
 - ATOK for Mac: `emoji.atok-macos.zip`
 
 | インポート手順 | インポート手順 |
