@@ -1,21 +1,35 @@
-import urllib.request
 import json
 
-from pykakasi import kakasi, wakati
+#from pykakasi import kakasi, wakati
+import MeCab
+import jaconv
+mecab = MeCab.Tagger()
+mecab.parse('')
 
 
-kakasi = kakasi()
-kakasi.setMode("J","H")
-conv_j2h = kakasi.getConverter()
-kakasi.setMode("K","H")
-conv_k2h = kakasi.getConverter()
+#kakasi = kakasi()
+#kakasi.setMode("J","H")
+#conv_j2h = kakasi.getConverter()
+#kakasi.setMode("K","H")
+#conv_k2h = kakasi.getConverter()
 
+def get_hiragana(keyword):
+    node = mecab.parseToNode(keyword)
+    hiragana = ""
+    while node:
+        feature = node.feature.split(",")
+        if len(feature)<8:
+            hiragana += node.surface
+        else:
+            if feature[7] == "*":
+                node = node.next
+                continue
+            hiragana += feature[7]
+        node = node.next
+    return jaconv.kata2hira(hiragana)
 
 def hiraganafy(keyword):
-    k = keyword.upper()
-    k = conv_j2h.do(k)
-    k = conv_k2h.do(k)
-    return k
+    return get_hiragana(keyword)
 
 
 def add_word_to_dict(emoji, keyword, emoji_dict):
