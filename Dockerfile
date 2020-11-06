@@ -6,8 +6,8 @@ ENV LANG=C.UTF-8
 
 WORKDIR /build
 COPY requirements.txt ./requirements.txt
-RUN python3 -m pip install --no-cache-dir --upgrade pip && \
-    python3 -m pip install --no-cache-dir -r ./requirements.txt && \
-    python3 -m pip check
+RUN python3 -m pip install --no-cache-dir --use-feature=2020-resolver --upgrade pip && \
+    python3 -m pip install --no-cache-dir --use-feature=2020-resolver -r ./requirements.txt && \
+    python3 -m pip check --use-feature=2020-resolver
 
 WORKDIR /src
