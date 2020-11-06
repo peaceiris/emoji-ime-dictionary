@@ -10,3 +10,7 @@ test:
 all:
 	$(MAKE) test
 	$(MAKE) build
+
+.PHONY: run
+run:
+	docker-compose run --rm dev bash
