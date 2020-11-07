@@ -4,8 +4,6 @@ import json
 from pykakasi import kakasi, wakati
 
 
-EMOJI_JSON_URL = 'https://raw.githubusercontent.com/yagays/emoji-ja/20190726/data/emoji_ja.json'
-EMOJI_DICT_PATH = 'tsv/emoji.tsv'
 kakasi = kakasi()
 kakasi.setMode("J","H")
 conv_j2h = kakasi.getConverter()
@@ -30,13 +28,13 @@ class EmojiDict():
     emoji_json = None
     emoji_dict = []
 
-    def __init__(self, emoji_json_url: str, emoji_dict_path: str) -> None:
-        self.emoji_json_url = emoji_json_url
+    def __init__(self, emoji_json_path: str, emoji_dict_path: str) -> None:
+        self.emoji_json_path = emoji_json_path
         self.emoji_dict_path = emoji_dict_path
 
     def get_emoji_json(self) -> None:
-        with urllib.request.urlopen(self.emoji_json_url) as f:
-            self.emoji_json = json.loads(f.read().decode('utf-8'))
+        with open(self.emoji_json_path, 'r') as f:
+            self.emoji_json = json.load(f)
 
     def save_emoji_dict(self) -> None:
         with open(self.emoji_dict_path, 'w') as f:
@@ -62,7 +60,9 @@ class EmojiDict():
 
 
 if __name__ == "__main__":
-    emoji_dict = EmojiDict(EMOJI_JSON_URL, EMOJI_DICT_PATH)
+    EMOJI_JSON_PATH = '/root/emoji_ja.json'
+    EMOJI_DICT_PATH = 'tsv/emoji.tsv'
+    emoji_dict = EmojiDict(EMOJI_JSON_PATH, EMOJI_DICT_PATH)
     emoji_dict.get_emoji_json()
     emoji_dict.create_emoji_dict()
     emoji_dict.save_emoji_dict()
