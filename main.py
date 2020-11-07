@@ -1,35 +1,33 @@
 import json
+from janome.tokenizer import Tokenizer
+from pykakasi import kakasi
+import re
 
-#from pykakasi import kakasi, wakati
-import MeCab
-import jaconv
-mecab = MeCab.Tagger()
-mecab.parse('')
+t = Tokenizer()
+
+kakasi = kakasi()
+kakasi.setMode("J","H")
+conv_j2h = kakasi.getConverter()
+kakasi.setMode("K","H")
+conv_k2h = kakasi.getConverter()
 
 
-#kakasi = kakasi()
-#kakasi.setMode("J","H")
-#conv_j2h = kakasi.getConverter()
-#kakasi.setMode("K","H")
-#conv_k2h = kakasi.getConverter()
+def hiraganafy_v1(keyword):
+    k = keyword.upper()
+    k = conv_j2h.do(k)
+    k = conv_k2h.do(k)
+    return k
 
-def get_hiragana(keyword):
-    node = mecab.parseToNode(keyword)
-    hiragana = ""
-    while node:
-        feature = node.feature.split(",")
-        if len(feature)<8:
-            hiragana += node.surface
-        else:
-            if feature[7] == "*":
-                node = node.next
-                continue
-            hiragana += feature[7]
-        node = node.next
-    return jaconv.kata2hira(hiragana)
 
 def hiraganafy(keyword):
-    return get_hiragana(keyword)
+    katakana = ''
+    for token in t.tokenize(keyword.upper()):
+        katakana += token.surface if token.reading == '*' else token.reading
+    hiragana = conv_k2h.do(katakana)
+    hiragana_v1 = hiraganafy_v1(keyword)
+    if hiragana != hiragana_v1:
+        print(f'| {keyword} | {hiragana} | {hiragana_v1} |')
+    return hiragana
 
 
 def add_word_to_dict(emoji, keyword, emoji_dict):
@@ -60,14 +58,14 @@ class EmojiDict():
             for k in self.emoji_json[emoji]['keywords']:
                 if k.isalpha() is False:
                     continue
-                k = hiraganafy(k)
-                add_word_to_dict(emoji, k, self.emoji_dict)
+                hiragana = hiraganafy(k)
+                add_word_to_dict(emoji, hiragana, self.emoji_dict)
 
             k = self.emoji_json[emoji]['short_name']
             if k.isalpha() is False:
                 continue
-            k = hiraganafy(k)
-            add_word_to_dict(emoji, k, self.emoji_dict)
+            hiragana = hiraganafy(k)
+            add_word_to_dict(emoji, hiragana, self.emoji_dict)
 
         self.emoji_dict.sort()
         self.emoji_dict = '\n'.join(self.emoji_dict)
