@@ -4,4 +4,3 @@ pox==0.2.9
 pykakasi==2.0.1
 semidbm==0.5.1
 six==1.15.0
-MeCab==0.996
