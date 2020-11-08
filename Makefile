@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	docker-compose run --rm -T dev python main.py
+	COMPOSE_DOCKER_CLI_BUILD=1 docker-compose run --rm -T dev python main.py
 
 .PHONY: test
 test:

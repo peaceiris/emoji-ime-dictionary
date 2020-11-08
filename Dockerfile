@@ -19,6 +19,10 @@ RUN python3 -m pip install --no-cache-dir --upgrade pip && \
     python3 -m pip install --no-cache-dir -r ./requirements.txt && \
     python3 -m pip check
 
+RUN wget -q https://github.com/peaceiris/emoji-ime-dictionary/releases/download/v2.2.1/Janome-0.4.1-neologd-20200910.tar.gz && \
+    python3 -m pip install --no-cache-dir --no-compile Janome-0.4.1-neologd-20200910.tar.gz && \
+    rm Janome-0.4.1-neologd-20200910.tar.gz
+
 RUN wget -q 'https://raw.githubusercontent.com/yagays/emoji-ja/20190726/data/emoji_ja.json' \
       -O /root/emoji_ja.json
 
