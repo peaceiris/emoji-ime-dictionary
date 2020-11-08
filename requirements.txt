@@ -1,5 +1,4 @@
 dill==0.3.3
-Janome==0.4.1
 klepto==0.2.0
 pox==0.2.9
 pykakasi==2.0.1
