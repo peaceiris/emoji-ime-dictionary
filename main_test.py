@@ -15,22 +15,12 @@ class TestStringMethods(unittest.TestCase):
             {'in': '営マーク', 'out': 'えいまーく'},
             {'in': '営業中', 'out': 'えいぎょうちゅう'},
             {'in': '営業日', 'out': 'えいぎょうび'},
-        ]
-        for t in test_cases:
-            self.assertEqual(main.hiraganafy(t['in']), t['out'])
-
-    def test_hiraganafy_todo(self):
-        test_cases = [
-            {'in': 'しかめ面', 'out': 'しかめっつら'},
-            {'in': 'しかめ面の人', 'out': 'しかめつらのひと'},
             {'in': 'バルカン人', 'out': 'ばるかんじん'},
-            {'in': 'フェイスマッサージ中の人', 'out': 'ふぇいすまっさーじちゅうのひと'},
             {'in': '水球をする人', 'out': 'すいきゅうをするひと'},
             {'in': '人のシルエット', 'out': 'ひとのしるえっと'},
             {'in': '話す人のシルエット', 'out': 'はなすひとのしるえっと'},
             {'in': '2人のシルエット', 'out': 'ふたりのしるえっと'},
             {'in': '六芒星', 'out': 'ろくぼうせい'},
-            {'in': '六角星', 'out': 'ろっかくせい'},
             {'in': '波乗り', 'out': 'なみのり'},
             {'in': 'きらきら星', 'out': 'きらきらぼし'},
             {'in': 'くす玉', 'out': 'くすだま'},
@@ -39,6 +29,16 @@ class TestStringMethods(unittest.TestCase):
             {'in': '白杖', 'out': 'はくじょう'},
             {'in': '介助犬', 'out': 'かいじょけん'},
             {'in': '筋トレ', 'out': 'きんとれ'},
+        ]
+        for t in test_cases:
+            self.assertEqual(main.hiraganafy(t['in']), t['out'])
+
+    def test_hiraganafy_todo(self):
+        test_cases = [
+            {'in': 'しかめ面', 'out': 'しかめっつら'},
+            {'in': 'しかめ面の人', 'out': 'しかめつらのひと'},
+            {'in': 'フェイスマッサージ中の人', 'out': 'ふぇいすまっさーじちゅうのひと'},
+            {'in': '六角星', 'out': 'ろっかくせい'},
         ]
         for t in test_cases:
             self.assertNotEqual(main.hiraganafy(t['in']), t['out'])
