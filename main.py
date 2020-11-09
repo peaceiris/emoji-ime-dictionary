@@ -67,7 +67,7 @@ class EmojiDict():
             hiragana = hiraganafy(k)
             add_word_to_dict(emoji, hiragana, self.emoji_dict)
 
-        self.emoji_dict.sort()
+        self.emoji_dict = sorted(list(set(self.emoji_dict)))
         self.emoji_dict = '\n'.join(self.emoji_dict)
 
 
