@@ -33,7 +33,8 @@ def hiraganafy(keyword):
 def add_word_to_dict(emoji, keyword, emoji_dict):
     valid_keyword = keyword.replace('ゔ', 'う゛')
     word = f':{valid_keyword}\t{emoji}\t記号\t'
-    emoji_dict.append(word)
+    if not word in emoji_dict:
+        emoji_dict.append(word)
 
 
 class EmojiDict():
