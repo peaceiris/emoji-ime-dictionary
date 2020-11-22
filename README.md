@@ -120,6 +120,7 @@ ATOK は元々の機能として「日本語での絵文字入力」が可能で
 - [yagays/emoji-ja: UNICODE絵文字の日本語読み/キーワード/分類辞書](https://github.com/yagays/emoji-ja)
     - [project's site](https://yag-ays.github.io/project/emoji-ja/)
 - [miurahr/pykakasi](https://github.com/miurahr/pykakasi)
+- [mocobeta/janome: Japanese morphological analysis engine written in pure Python](https://github.com/mocobeta/janome)
 
 
 
