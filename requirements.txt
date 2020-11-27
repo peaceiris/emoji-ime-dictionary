@@ -1,6 +1,6 @@
 dill==0.3.3
 klepto==0.2.0
 pox==0.2.9
-pykakasi==2.0.3
+pykakasi==2.0.4
 semidbm==0.5.1
 six==1.15.0
