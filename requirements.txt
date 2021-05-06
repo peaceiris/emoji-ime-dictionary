@@ -3,4 +3,4 @@ klepto==0.2.0
 pox==0.2.9
 pykakasi==2.0.8
 semidbm==0.5.1
-six==1.15.0
+six==1.16.0
