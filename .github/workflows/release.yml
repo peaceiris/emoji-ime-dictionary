@@ -7,14 +7,10 @@ on:
 
 jobs:
   main:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v2.3.4
-
-      - name: Install github/hub
-        run: |
-          export HUB_VERSION="2.14.2"
-          curl -fsSL https://github.com/github/hub/raw/8d91904208171b013f9a9d1175f4ab39068db047/script/get | bash -s "${HUB_VERSION}"
 
       - name: Install nkf
         run: |
