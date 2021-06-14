@@ -1,4 +1,4 @@
-dill==0.3.3
+dill==0.3.4
 klepto==0.2.0
 pox==0.3.0
 pykakasi==2.1.1
