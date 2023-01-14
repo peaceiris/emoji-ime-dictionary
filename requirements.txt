@@ -1,5 +1,5 @@
 dill==0.3.4
-klepto==0.2.1
+klepto==0.2.3
 pox==0.3.2
 pykakasi==2.2.1
 semidbm==0.5.1
